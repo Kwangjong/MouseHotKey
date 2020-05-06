@@ -58,6 +58,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         NSEvent.addGlobalMonitorForEvents(matching: NSEvent.EventTypeMask.otherMouseDown, handler: mListener)
         NSEvent.addGlobalMonitorForEvents(matching: NSEvent.EventTypeMask.leftMouseDown, handler: mListener)
         NSEvent.addGlobalMonitorForEvents(matching: NSEvent.EventTypeMask.rightMouseDown, handler: mListener)
+        //test
     }
     
     func mListener(event :NSEvent){
